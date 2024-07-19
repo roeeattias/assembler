@@ -10,4 +10,4 @@ assembler: $(OBJS)
 	gcc $(CFLAGS) -c $< -o $@
 
 clean:
-	rm source/assembler.o source/macroTable.o source/state.o source/preProcessor.o source/symbolTable.o source/firstTransition.o source/utils.o source/opcode.o source/memory.o source/secondTransition.o source/exportFiles.o
+	rm source/*.o
